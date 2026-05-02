@@ -2206,6 +2206,12 @@ footer::before {
     }
 }
 
+
 .logo {
-    margin-right: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 5px;
 }
