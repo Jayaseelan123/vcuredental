@@ -1,4 +1,4 @@
-Ôªø<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +47,7 @@
             </ul>
 
             <!-- Mobile Toggle (Keep for responsiveness) -->
-            <button class="hamburger" onclick="toggleMobileMenu()" style="display:none;">
+            <button class="hamburger" onclick="toggleMobileMenu()">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
@@ -164,17 +164,17 @@
 
     <script>
         const specialities = [
-            { name: "Dental Implant", icon: "ü¶∑", img: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?auto=format&fit=crop&q=80&w=600" },
-            { name: "RCT", icon: "‚ö°", img: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Zirconia Crowns", icon: "üëë", img: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Complete Denture", icon: "ü¶∑", img: "Images/completed .png" },
-            { name: "Clear Aligners", icon: "üíé", img: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Orthodontic Treatment", icon: "üìê", img: "Images/complete3.png" },
-            { name: "Kids Dentistry", icon: "üë∂", img: "https://images.unsplash.com/photo-1653508310895-62141575a3a9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Smile Makeover", icon: "‚ú®", img: "https://images.unsplash.com/photo-1758691463393-a2aa9900af8a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Full Mouth Rehabilitation", icon: "üîÑ", img: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Wisdom Tooth Removal", icon: "üöë", img: "https://plus.unsplash.com/premium_photo-1661559036870-ef6643e7a472?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-            { name: "Cleaning and Polishing", icon: "‚ú®", img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+            { name: "Dental Implant", icon: "fas fa-tooth", img: "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?auto=format&fit=crop&q=80&w=600" },
+            { name: "RCT", icon: "fas fa-bolt", img: "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Zirconia Crowns", icon: "fas fa-crown", img: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Complete Denture", icon: "fas fa-teeth", img: "Images/completed .png" },
+            { name: "Clear Aligners", icon: "fas fa-gem", img: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Orthodontic Treatment", icon: "fas fa-align-center", img: "Images/complete3.png" },
+            { name: "Kids Dentistry", icon: "fas fa-child", img: "https://images.unsplash.com/photo-1653508310895-62141575a3a9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Smile Makeover", icon: "fas fa-star", img: "https://images.unsplash.com/photo-1758691463393-a2aa9900af8a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Full Mouth Rehabilitation", icon: "fas fa-sync-alt", img: "https://images.unsplash.com/photo-1643401142249-84ef35c123c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Wisdom Tooth Removal", icon: "fas fa-briefcase-medical", img: "https://plus.unsplash.com/premium_photo-1661559036870-ef6643e7a472?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+            { name: "Cleaning and Polishing", icon: "fas fa-sparkles", img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
         ];
 
         const specialtyGrid = document.getElementById('specialtyGrid');
@@ -186,7 +186,7 @@
                     <img src="${s.img}" alt="${s.name}" class="spec-img">
                 </div>
                 <div class="spec-info">
-                    <div class="spec-icon-circle">${s.icon}</div>
+                    <div class="spec-icon-circle"><i class="${s.icon}"></i></div>
                     <h3>${s.name}</h3>
                     <a href="services.html" class="spec-link">View Details <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -331,9 +331,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúThe hospitality at
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìThe hospitality at
                         V-Cure is unmatched. I was terrified of root canals, but the doctor's gentle approach and the
-                        painless laser technology completely changed my perspective.‚Äù</p>
+                        painless laser technology completely changed my perspective.î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Santhosh Kumar</strong>
@@ -348,9 +348,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúAbsolutely thrilled
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìAbsolutely thrilled
                         with my dental implants. The team used advanced digital mapping to ensure a perfect fit. The
-                        Zirconia crown looks so natural. Top-notch service!‚Äù</p>
+                        Zirconia crown looks so natural. Top-notch service!î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Priya Dharshini</strong>
@@ -365,9 +365,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúBest place for kids!
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìBest place for kids!
                         My 6-year-old was quite stubborn about dental checkups, but the colorful environment and the
-                        friendly staff made it a fun experience for him.‚Äù</p>
+                        friendly staff made it a fun experience for him.î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Anitha Raj</strong>
@@ -382,9 +382,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúI chose V-Cure for
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìI chose V-Cure for
                         Clear Aligners and it was the best decision. The process was seamless, and the results are
-                        better than I expected. My smile makeover has given me so much confidence!‚Äù</p>
+                        better than I expected. My smile makeover has given me so much confidence!î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Vignesh W.</strong>
@@ -399,9 +399,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúThe hospitality at
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìThe hospitality at
                         V-Cure is unmatched. I was terrified of root canals, but the doctor's gentle approach and the
-                        painless laser technology completely changed my perspective.‚Äù</p>
+                        painless laser technology completely changed my perspective.î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Santhosh Kumar</strong>
@@ -416,9 +416,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúAbsolutely thrilled
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìAbsolutely thrilled
                         with my dental implants. The team used advanced digital mapping to ensure a perfect fit. The
-                        Zirconia crown looks so natural. Top-notch service!‚Äù</p>
+                        Zirconia crown looks so natural. Top-notch service!î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Priya Dharshini</strong>
@@ -433,9 +433,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúBest place for kids!
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìBest place for kids!
                         My 6-year-old was quite stubborn about dental checkups, but the colorful environment and the
-                        friendly staff made it a fun experience for him.‚Äù</p>
+                        friendly staff made it a fun experience for him.î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Anitha Raj</strong>
@@ -450,9 +450,9 @@
                             class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <i class="fas fa-quote-left quote-icon" style="font-size: 1.5rem; top: 20px; left: 25px;"></i>
-                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">‚ÄúI chose V-Cure for
+                    <p class="testimonial-text" style="font-size: 1.05rem; margin-bottom: 20px;">ìI chose V-Cure for
                         Clear Aligners and it was the best decision. The process was seamless, and the results are
-                        better than I expected. My smile makeover has given me so much confidence!‚Äù</p>
+                        better than I expected. My smile makeover has given me so much confidence!î</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <strong>Vignesh W.</strong>
@@ -473,20 +473,21 @@
     <script>
         const grid = document.getElementById('serviceGrid');
         services.forEach(s => {
-            grid.innerHTML += `<div class="reveal glass-card"><h3>${s.icon} ${s.name}</h3><p>${s.desc}</p></div>`;
+            grid.innerHTML += `<div class="reveal glass-card"><h3><i class="${s.icon}"></i> ${s.name}</h3><p>${s.desc}</p></div>`;
         });
     </script>
 
     <!-- WHATSAPP CTA -->
     <section class="container section-padding reveal">
-        <div class="glass-card"
-            style="background: #25D366; color: white; border: none; display: flex; justify-content: space-between; align-items: center; padding: 60px;">
-            <div style="text-align: left;">
-                <h2 style="font-size: 2.5rem;">Have a question about a service?</h2>
-                <p style="font-size: 1.2rem; opacity: 0.9;">Get an instant consultation or quote via WhatsApp.</p>
-            </div>
-            <br>
-            <a href="https://wa.me/yournumber" class="btn-main"
+        <div class="whatsapp-cta">
+                <div style="text-align: left;">
+                    <h2>Have a question about a service?</h2>
+                    <p style="font-size: 1.2rem; opacity: 0.9;">Get an instant consultation or quote via WhatsApp.</p>
+                </div>
+                <a href="https://wa.me/yournumber" class="btn-main" style="background: white; color: #25D366; display: flex; align-items: center; gap: 10px;">
+                    <i class="fab fa-whatsapp"></i> Message Us Now
+                </a>
+            </div><a href="https://wa.me/yournumber" class="btn-main"
                 style="background: white; color: #25D366; display: flex; align-items: center; gap: 10px;">
                 <i class="fab fa-whatsapp"></i> Message Us Now
             </a>
@@ -497,9 +498,7 @@
             <div class="footer-grid">
                 <!-- Column 1: Brand -->
                 <div class="footer-col">
-                    <a href="index.html" class="logo" style="color: white; margin-bottom: 25px; display: block;"><img
-                            src="Images/logo.png" alt="V Cure Dental & Implant Centre" width="60" height="60"> V
-                        Cure<span> Dental & Implant Centre</span></a>
+                    <a href="index.html" class="logo"><img src="Images/logo.png" alt="V Cure Dental & Implant Centre"> V Cure<span> Dental & Implant Centre</span></a>
                     <p>Pioneering the future of healthcare with 16+ years of excellence. We provide world-class medical
                         services with a commitment to compassion, innovation, and patient-centered care.</p>
                     <div class="social-links" style="margin-top: 30px;">
